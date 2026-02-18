@@ -1,6 +1,9 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.games {
+    display: flex;
+}
 .Roblox {
     border: 2px solid black;
     border-radius: 20px;
