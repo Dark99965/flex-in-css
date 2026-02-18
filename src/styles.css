@@ -3,8 +3,14 @@ body {
 }
 .games {
     display: flex;
+    gap: 30px;
 }
 .Roblox {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+.Minecraft {
     border: 2px solid black;
     border-radius: 20px;
     padding: 20px;
