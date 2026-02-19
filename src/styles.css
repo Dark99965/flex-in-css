@@ -4,9 +4,24 @@ body {
 .games {
     display: flex;
     gap: 30px;
+    flex-wrap: wrap;
 }
 .game {
     border: 2px solid black;
     border-radius: 20px;
     padding: 20px;
+    box-shadow: 15px 9px 15px;
+    transition: transform 1s ease, rotate 995ms ease;
+}
+.game:hover {
+    transform: scale(1.1);
+}
+.game:active {
+    rotate: 5deg;
+}
+button {
+    transition: transform 1s;
+}
+button:hover {
+    transform: scale(1.2);
 }
